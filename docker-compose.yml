@@ -1,4 +1,10 @@
 services:
+
+  # This is a dummy service that will run forever. If you have a service that does run forever (like a database), you can skip this.
+  dummy:
+    image: alpine
+    command: tail -f /dev/null
+
   golang:
     build:
       context: ./
@@ -6,10 +12,8 @@ services:
     command: go run main.go
     ports:
       - '8080:8080'
-    x-develop:
+    develop:
       watch:
-        - action: sync
+        - action: sync+restart
           path: ./
           target: /usr/src/app
-        - action: rebuild
-          path: ./
