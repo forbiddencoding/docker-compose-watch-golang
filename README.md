@@ -1,7 +1,7 @@
 # Docker Compose File Watch with Golang
 [![Docker](https://img.shields.io/badge/-Docker-informational?style=for-the-badge&color=27272A&logo=docker)](LICENSE.md)
 [![Golang](https://img.shields.io/badge/-Golang-informational?style=for-the-badge&color=27272A&logo=go)](LICENSE.md)
-[![License](https://img.shields.io/badge/license-BSD_3--Clause-blue.svg?style=for-the-badge&color=27272A)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=27272A)](LICENSE.md)
 
 > To use this feature, you need to be on Docker Compose version 2.22 or higher.
 > To check your version, run `docker compose version`.
@@ -55,7 +55,7 @@ If you want a stable and tested way for live-reloading your Golang Docker contai
 
 ## License
 
-This project is licensed under the terms of the BSD-3-Clause License. Feel free to use, modify, and distribute the code
+This project is licensed under the terms of the MIT License. Feel free to use, modify, and distribute the code
 as per the terms of the license. See the [LICENSE](LICENSE.md) file for more details.
 
 ---
